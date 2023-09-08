@@ -1,0 +1,105 @@
+/* title */
+.Brwallhallaimage{
+    background-image: url(../images/Bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 110vh;
+    background-position: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titlebox{
+    width: 95%;
+    height: 70%;
+    background-color: rgba(183,157,185,.80);
+
+}
+.logo img{
+    width:5%;
+    height:5%;
+    border-radius: 50%;
+    
+}
+.about{
+    font-size: 2.5em;
+}
+.about button{
+    width: 10%; 
+    border-radius: 10px; 
+    background-color: blue; 
+    color: aliceblue; 
+    font-size: .5em;
+}
+
+
+
+/* winners */
+.item{
+    
+
+    min-height: 50vh;
+    max-height: 35vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.item::-webkit-scrollbar{
+    display: none;
+}
+.project-body {
+    height: calc(100% - 50px); /* Adjust the height based on your requirements */
+    overflow-y: auto;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.winnersimg{
+    width:40%;
+    height:10%;
+    ;
+}
+.winnersimg img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    
+}
+/* rules */
+
+/* footer */
+.footer{
+    background-color: #000000;
+    color: aliceblue;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 900px) {
+    .titlebox{
+        height: 90%;
+    }
+    .about button{
+        width: 20%;
+    }
+    .logo img{
+        width: 10%;
+    }
+
+    @media(max-width: 400px) {
+        .about{
+            font-size:2.5em;
+        }
+        .titlebox{
+            height: 95%;
+        }
+        .about button{
+            width: 30%;
+        }
